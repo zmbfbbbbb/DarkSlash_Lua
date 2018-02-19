@@ -49,7 +49,10 @@ function playScene:onCreate()
   local playerFX = playerFXClass.create()
   playerFX:init(playerFXNode)
 
-
+ local num,str = cppFunction(999,"I'm a lua string") 
+  local label = cc.LabelTTF:create(str, "Arial", 25)
+  label:setPosition(cc.p(200,300))
+  self.myScene:addChild(label)
   cc.Director:getInstance():replaceScene (self.myScene)
 end
 function playScene:enter(SortMng)

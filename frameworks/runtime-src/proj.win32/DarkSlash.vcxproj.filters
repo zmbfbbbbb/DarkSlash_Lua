@@ -215,6 +215,9 @@
     <ClInclude Include="..\Classes\reader\ui\RichtextStringVisitor.h">
       <Filter>Classes\reader</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\HclcData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
@@ -343,6 +346,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\reader\ui\RichtextStringVisitor.cpp">
       <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HclcData.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

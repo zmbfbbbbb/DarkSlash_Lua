@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4E6A7A0E-DDD8-4BAA-8B22-C964069364ED}</ProjectGuid>
     <ProjectName>DarkSlash</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -194,6 +195,7 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\HclcData.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimateClip.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimationClip.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimationClipProperties.h" />
@@ -264,6 +266,7 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\HclcData.cpp" />
     <ClCompile Include="..\Classes\reader\animation\AnimateClip.cpp" />
     <ClCompile Include="..\Classes\reader\animation\AnimationClip.cpp" />
     <ClCompile Include="..\Classes\reader\animation\AnimationManager.cpp" />
