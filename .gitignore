@@ -1,0 +1,8 @@
+frameworks/cocos2d-x/
+frameworks/runtime-src/proj.win32/.vs/
+frameworks/runtime-src/proj.win32/Debug.win32/
+simulator/
+frameworks/runtime-src/proj.android-studio/proj.android-studio.iml
+frameworks/runtime-src/proj.android-studio/.idea/
+frameworks/runtime-src/proj.android-studio/app/DarkSlash.iml
+src/cocos2dx3Api.lua
